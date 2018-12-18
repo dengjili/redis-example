@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE configuration  
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"  
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">  
+<configuration>  
+	<typeAliases>
+		<typeAlias type="priv.dengjl.redis_example.pojo.Role" alias="role"/>
+	</typeAliases>
+    <mappers>  
+        <mapper resource="priv/dengjl/redis_example/mapper/RoleMappler.xml"/>  
+    </mappers>
+</configuration>
